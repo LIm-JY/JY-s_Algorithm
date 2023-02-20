@@ -10,7 +10,6 @@ public class Main {
 			StringTokenizer st = new StringTokenizer(br.readLine());
 			arr[i] = st.nextToken();
 		}
-		// 람다식 사용
 		Arrays.sort(arr, new Comparator<String>() {
 			@Override
 			public int compare(String o1, String o2) {
